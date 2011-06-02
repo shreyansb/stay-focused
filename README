@@ -1,0 +1,3 @@
+I made this extension to prevent myself from getting distracted.
+I still like the idea, but the implementation wasn't perfect - I kept encountering sites that I'd need to look at for work, and adding each one to the 'approved' list was a pain. I wanted to add a popup from the toolbar that would allow me to add new approved urls. While trying to use localstorage to keep track of these links, I broke the extension. I think.
+Unused at the moment. Getting better at dealing with distractions without this.
