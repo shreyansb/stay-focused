@@ -1,0 +1,14 @@
+<html>
+    <head>
+        <title>Stay Focused Settings</title>
+        <script type="text/javascript" src="stayfocused_options.js"></script>
+    </head>
+    <body onload="stayfocused.load_options()">
+        <textarea id="stayfocused_allowed_urls" style="width:300px;height:100px;"></textarea><br/>
+        <span style="font-size:10pt">Seconds to delay: </span>
+            <input type="text" id="stayfocused_delay_seconds"/>
+        <span style="font-size:10pt">On?: </span>
+            <input type="checkbox" id="stayfocused_on_or_off"/>
+        <button onclick="stayfocused.save_options(); return false;">Save settings</button>
+    </body>
+</html>

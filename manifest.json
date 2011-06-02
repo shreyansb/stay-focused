@@ -1,0 +1,19 @@
+{
+  // Required
+  "name": "Stay Focused",
+  "version": "0.0.1",
+
+  // Recommended
+  "description": "slows down page loads for all sites that don't match a criteria",
+
+  // Add any of these that you need
+  "content_scripts": [
+		{
+			"matches":["<all_urls>"],
+			"js":["stayfocused.js"],
+			"all_frames": true,
+			"run_at": "document_start"
+		}
+	],
+  "update_url": "http://srb.ag/stayfocused"
+}
